@@ -1,0 +1,11 @@
+[package]
+name = "mei-scores"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/scores-rs/mei-scores"
+description = "Read and write MEI (Music Encoding Initiative) documents"
+
+[dependencies]
+quick-xml = "0.42"
+thiserror = "2"
